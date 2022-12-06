@@ -11,7 +11,7 @@ variable "ssh_port" {
 }
 
 variable "alb_name" {
-  description = "The name of the ALB"
+  description = "The name of the Load Balancer"
   type        = string
   default     = "example-alb"
 }
